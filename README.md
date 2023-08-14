@@ -2,7 +2,8 @@
 ## HOW TO RUN
 - missing_info.py can be run using `python3 missing_info.py`
 - Please place AWS config information into a file called `config.conf` in the format of: 
-```[default]
+```
+[default]
 aws_access_key_id = ACCESS_KEY_ID
 aws_secret_access_key = ACCESS_KEY
 ```
