@@ -2,9 +2,10 @@
 ## HOW TO RUN
 - missing_info.py can be run using `python3 missing_info.py`
 - Please place AWS config information into a file called `config.conf` in the format of: 
->[default]
+```[default]
 aws_access_key_id = ACCESS_KEY_ID
 aws_secret_access_key = ACCESS_KEY
+```
 
 ## Notes about Dynamo Functions
 - In order to perform Dynamo Functions such as adding a record (add_record()), updating a record (update_record()), and deleting a record (delete_record()), you need the Partition and Sort Key.
